@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-container {
+    width: auto;
+    height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 35px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product-section {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    border-radius: 18px 0 0 18px;
+}
+
+.product-image {
+    width: 325px;
+    height: 100%;
+}
+
+.product-features {
+    height: 100%;
+    padding: 36px 0;
+    margin-right: 52px;
+}
+
+.product-title-card {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-heading {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 42px;
+    line-height: 1;
+    margin: 24px 0;
+    color: hsl(212, 21%, 14%);
+}
+
+.product-paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 16px 0;
+    line-height: 24px;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-prices {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    align-content: space-between;
+    margin-bottom: 12px;
+}
+
+.product-actual-price {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 42px;
+    color: hsl(158, 36%, 37%);
+}
+
+.product-price-discount {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+/* i {
+    height: 24px;
+    width: 24px;
+    stroke: hsl(0, 0%, 100%);
+} */
+
+object {
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    height: 60px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 80px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+}
+
+.btn:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 37%, 16%);
+}
+
+.attribution {
+    padding: 20px;
+    text-align: center;
+    color: hsl(158, 36%, 37%);
+}
+
+.attribution a {
+    color: hsl(228, 12%, 48%);
+}
